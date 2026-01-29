@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Creating Box model</title>
+    <style>
+        .Box-one {
+
+            background-color: aqua;
+            /*height:80px*/
+            /*padding: 20px;*/
+            padding-top: 60px;
+            padding-right: 15px;
+            padding-left: 45px;
+            padding-bottom: 60px;
+            width: 100px;
+            border: 10px solid blue;
+            margin: 90px 250px 90px 248px;
+            /*anticlockwise top,right,bottom,left also applicable for padding*/
+            border-bottom-width: 50px;
+
+        }
+
+        .Box-two {
+
+            background-color: beige;
+            height: 100px;
+            border: 10px solid red;
+            padding: 65px;
+            width: 100px;
+            margin: 20px auto 30px auto;
+            /*auto adjust the left and right position to plac eit exactly ta the center automatically.this can only be use in left and right*/
+            border-bottom-width: 50px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Box-one">First Box</div>
+    <div class="Box-two">Second Box</div>
+</body>
+
+</html>
